@@ -19,15 +19,15 @@ The job will create a folder system in your bucket organized by machine name and
 machine1.name
   - YYYY-MM-DD@HHMM
     - database1.sql.gz
-    - database1.sql.gz
+    - database2.sql.gz
   - YYYY-MM-DD@HHMM
     - database1.sql.gz
-    - database1.sql.gz    
+    - database2.sql.gz    
 machine2.name
   - YYYY-MM-DD@HHMM
     - database1.sql.gz
-    - database1.sql.gz
+    - database2.sql.gz
   - YYYY-MM-DD@HHMM
     - database1.sql.gz
-    - database1.sql.gz
+    - database2.sql.gz
 ```
