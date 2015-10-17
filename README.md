@@ -3,7 +3,7 @@ sometimes i tell computers what to do
 
 ## s3mysqlbackup.sh
 
-Ensure the machine has `curl` [s3cmd tools](http://s3tools.org/s3cmd) installed and that you've configured `s3cmd --configure`.
+Ensure the machine has `curl` and [s3cmd tools](http://s3tools.org/s3cmd) installed and that you've configured `s3cmd --configure`.
 
 Configure a cron job to run the following:
 
