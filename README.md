@@ -16,18 +16,7 @@ For each of the databases the user has access, the job will backup and compress 
 The job will create a folder system in your bucket organized by machine name and timestamp.
 
 ```bash
-machine1.name
+machine.name
   - YYYY-MM-DD@HHMM
-    - database1.sql.gz
-    - database2.sql.gz
-  - YYYY-MM-DD@HHMM
-    - database1.sql.gz
-    - database2.sql.gz    
-machine2.name
-  - YYYY-MM-DD@HHMM
-    - database1.sql.gz
-    - database2.sql.gz
-  - YYYY-MM-DD@HHMM
-    - database1.sql.gz
-    - database2.sql.gz
+    - database.sql.gz
 ```
