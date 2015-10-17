@@ -57,9 +57,10 @@ echo -e "Dumping to $S3_BUCKET/$stamp/"
 for db in $databases; do
 
   # Define our filenames
+  hostname=$(hostname)
   filename="$db.sql.gz"
   tmpfile="/tmp/$stamp - $filename"
-  object="$S3_BUCKET/$stamp/$filename"
+  object="$S3_BUCKET/$hostname $stamp/$filename"
 
   # Feedback
   total_length=70
