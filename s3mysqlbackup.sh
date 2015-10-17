@@ -60,7 +60,7 @@ for db in $databases; do
   hostname=$(hostname)
   filename="$db.sql.gz"
   tmpfile="/tmp/$stamp - $filename"
-  object="$S3_BUCKET/$hostname $stamp/$filename"
+  object="$S3_BUCKET/$hostname/$stamp/$filename"
 
   # Feedback
   total_length=70
